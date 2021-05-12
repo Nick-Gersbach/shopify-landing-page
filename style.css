@@ -323,6 +323,16 @@ Media Queries
 
 */
 
+/* 
+
+
+
+Smartphones
+
+
+
+*/
+
 @media only screen and (max-width: 600px) {
   form {
     display: flex;
@@ -381,6 +391,16 @@ Media Queries
   }
 }
 
+/* 
+
+
+
+Tablets
+
+
+
+*/
+
 @media only screen and (max-width: 768px) {
   #benefits-pricing {
     flex-direction: column;
@@ -408,12 +428,32 @@ Media Queries
   }
 }
 
+/* 
+
+
+
+ Portrait Smartphones
+
+
+
+*/
+
 @media only screen and (max-width: 540px) {
   #benefits-pricing div {
     margin: 15px;
     width: 300px;
   }
 }
+
+/* 
+
+
+
+Small Screen  Foldable Smartphones
+
+
+
+*/
 
 @media only screen and (max-width: 280px) {
   * {
